@@ -15,7 +15,7 @@ function Navbar(props) {
     const toast = useToast()
     return (
         <Flex as="nav" mb="40px" p="10px" alignItems="center">
-            <Heading as="h1">X Tasks</Heading>
+            <Heading as="h1">R-Tasks</Heading>
             <Spacer />
             <HStack spacing="20px">
                 <Avatar name="X" bg="purple.400" src="/img/mario.png">
@@ -23,7 +23,7 @@ function Navbar(props) {
                         <Text fontSize="xs" color="white">99</Text>
                     </AvatarBadge>
                 </Avatar>
-                <Text>x@x.gg</Text>
+                <Text>Radouane</Text>
                 <Button
                     colorScheme="purple"
                     onClick={() => {

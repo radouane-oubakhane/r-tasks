@@ -29,7 +29,7 @@ export default function Profile() {
             <List spacing={4}>
               <ListItem>
                 <ListIcon as={EmailIcon} />
-                Email: mario@netninja.dev
+                Email: radouane@r-tasks.com
               </ListItem>
               <ListItem>
                 <ListIcon as={ChatIcon} />
